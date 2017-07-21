@@ -1,0 +1,654 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.8;
+	color: #4d4d4d;
+	background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+  color: #01B7FA;
+}
+.navi-unten img {
+	padding-left: 0em;
+	
+}
+.navi-unten {
+	margin-top: 2em;
+	
+}
+/*button*/
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+	background-color: transparent;
+  border: 2px solid white ;
+  border-radius: 2px;
+ color: white;
+ 
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #01B7FA;
+  text-decoration: none;
+}
+	
+.navbar-default .navbar-brand {
+  color: #01B7FA;
+}
+.boot{
+color: #01B7FA;	
+border: 2px solid #01B7FA ;
+}
+.zitat {
+	background-color: #01B7FA;
+	margin-top: 4em;
+}
+
+.aktuell img {
+   	padding: 6em;
+	padding-left:0em;
+	padding-bottom: 3em;
+}
+.h5,h5 {
+	font-style: italic;
+	color: #fff;
+}
+/* for mobile */
+@media only screen and (max-width: 415px ) {
+	.aktuell {
+	background-image: url(../img/aktueller-stand-mobile01.svg);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+		padding-right:2em;
+	
+}
+		.aktuell2 {
+	background-image: url(../img/aktueller-stand-mobile02.svg);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+
+			padding-right:2em;
+	
+		}
+		.aktuell3 {
+	background-image: url(../img/aktueller-stand-mobile03.svg);
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+			padding-right:2em;
+	
+		}
+	.gruppe img{
+	padding-left:0px;
+	margin-top: 2em;
+}
+	.bg-1 {
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+		margin-top: -2em;
+	
+}
+.container-fluid.bg-1.text-center h1 {
+	padding-top: 1em;
+	color: #ffffff;
+	font-size: 3.8em;
+	text-align: left;
+	
+}
+	.container-fluid.bg-1.text-center h2 {
+	color: #ffffff;
+	font-size: 1.4em;
+	text-align: left;
+	
+}
+	.zitat  {
+	height: 200px;
+	margin-top: 2em;
+		padding-left: 0px;
+	}
+	.zitat h2, .h2 {
+		font-size: 1.4em;
+		/*margin-top: -0.3em;*/
+		color: #fff;
+		
+	}
+	
+	.headerbild {
+		background-image: url( ../img/Aktie-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		
+	
+	}
+	.headerbild2 {
+		background-image: url( ../img/Boerse-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		
+	
+	}
+	.headerbild3 {
+		background-image: url( ../img/anlage-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		
+	
+	}
+	.headerbild4 {
+		background-image: url( ../img/Dax-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;	
+	}
+	.headerbild5 {
+		background-image: url(  ../img/Fond-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;	
+	}
+	.headerbild6 {
+		background-image: url( ../img/depot-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;	
+	}
+	.headerbild7 {
+		background-image: url( ../img/strategie-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;	
+	}
+	.headerbild8 {
+		background-image: url( ../img/im-header.png);
+		height: 10em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;	
+	}
+}
+/* for tablet */
+
+	@media only screen and (min-width: 415px ) {
+	.aktuell {
+	background-image: url(../img/aktueller-stand-mobile01.svg);
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 2em;
+	
+}
+	.aktuell2 {
+	background-image: url(../img/aktueller-stand-mobile02.svg);
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	
+		
+		}
+	.aktuell3 {
+	background-image: url(../img/aktueller-stand-mobile03.svg);
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 1em;
+	
+		}
+		
+	.gruppe img{
+	padding-left:0px;
+	margin-top: 2em;
+}
+		
+		.bg-1 {
+	height:400px;
+	background-color: #DEDEDE;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+			margin-top: -2em;
+	
+	
+}
+
+.container-fluid.bg-1.text-center h1 {
+	padding-top: 1.4em;
+	color: #ffffff;
+	font-size: 4em;
+	text-align: left;
+	
+}
+	.container-fluid.bg-1.text-center h2 {
+	color: #ffffff;
+	font-size: 1.6em;
+	text-align: left;
+	
+}
+	.zitat {
+	height: 200px;
+		padding-left: 0px;
+	
+}
+	.zitat h2, .h2 {
+		font-size: 2em;
+		/*margin-top: -0.3em;*/
+		color: #fff;
+		}
+	.headerbild {
+		background-image: url( ../img/Aktie-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild2 {
+		background-image: url( ../img/Boerse-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild3 {
+		background-image: url( ../img/anlage-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild4 {
+		background-image: url( ../img/Dax-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild5 {
+		background-image: url(  ../img/Fond-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}.headerbild6 {
+		background-image: url( ../img/depot-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild7 {
+		background-image: url( ../img/strategie-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+			.headerbild8 {
+		background-image: url( ../img/im-header.png);
+		height: 14em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+	
+	
+
+}
+/* for desktop */
+	@media only screen and (min-width: 967px ) {
+	
+	.aktuell {
+	background-image: url(../img/aktueller-stand-02.svg);
+	height: 400px;
+	background-size: contain;
+		background-repeat: no-repeat;
+	margin-top: 3em;
+	
+}	
+	.aktuell2{
+	display:none;
+		}
+		
+	.aktuell3{
+	display:none;
+		}
+	.gruppe img{
+	margin-left:1em;
+	margin-top: 1em;
+}
+		.bg-1 {
+	height:700px;
+	background-color: #DEDEDE;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+			margin-top: -2em;
+		
+	
+}
+
+.container-fluid.bg-1.text-center h1 {
+	padding-top: 1.6em;
+	color: #ffffff;
+	font-size: 7em;
+	text-align: left;
+	
+}
+	.container-fluid.bg-1.text-center h2 {
+	color: #ffffff;
+	font-size: 2em;
+	text-align: left;
+	
+}
+	.zitat {
+	height:300px;
+	padding-left: 0px;
+	
+}
+	.zitat h2, .h2 {
+		font-size: 3em;
+		/*margin-top: -0.3em;*/
+		color: #fff;
+		}
+	.headerbild {
+		background-image: url( ../img/Aktie-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild2 {
+		background-image: url( ../img/Boerse-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild3 {
+		background-image: url( ../img/anlage-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild4 {
+		background-image: url( ../img/Dax-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild5 {
+		background-image: url( ../img/Fond-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild6 {
+		background-image: url( ../img/depot-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+		.headerbild7 {
+		background-image:  url( ../img/strategie-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+			.headerbild8 {
+		background-image:  url( ../img/im-header.png);
+		height: 16em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+		}
+	
+
+}
+/* for large desktop */
+	@media only screen and (min-width: 1500px ) {
+	
+	.aktuell {
+	background-image: url(../img/aktueller-stand-02.svg);
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 3em;
+	
+}
+	.aktuell2{
+	display:none;
+		}
+		
+	.aktuell3{
+	display:none;
+		}
+		
+	.gruppe img{
+	margin-left:1em;
+	margin-top: 1em;
+}
+		.bg-1 {
+	height:800px;
+	background-color: #DEDEDE;
+	background-image: url(../img/header.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+			margin-top: -2em;
+		
+	
+}
+
+	.container-fluid.bg-1.text-center h1 {
+	padding-top: 2em;
+	color: #ffffff;
+	font-size: 7em;
+	text-align: left;
+	
+}
+	.container-fluid.bg-1.text-center h2 {
+	color: #ffffff;
+	font-size: 2em;
+	text-align: left;
+	
+}
+	.headerbild {
+		background-image: url( ../img/Aktie-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	
+	}
+		.headerbild2 {
+		background-image: url( ../img/Boerse-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		
+		.headerbild3 {
+		background-image: url( ../img/anlage-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		.headerbild4 {
+		background-image: url( ../img/Dax-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		.headerbild5 {
+		background-image: url(../img/Fond-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		.headerbild6 {
+		background-image: url( ../img/depot-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		.headerbild7 {
+		background-image:  url( ../img/strategie-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+		.headerbild8 {
+		background-image:  url( ../img/im-header.png);
+		height: 22em;
+		background-size: cover;
+		background-repeat: no-repeat;
+		margin-top: -2em;
+	}
+
+}
+
+.uebersicht .center-block, img {
+   	padding: 6em;
+	padding-left:0em;
+	padding-bottom: 3em;
+}
+.uebersicht h3, .h3{
+	color:#4d4d4d;
+	font-size: 3em;
+	margin-top: 0px;
+}
+.uebersicht p, .p{
+	color:#4d4d4d;
+	font-size: 1.2em;
+}
+
+
+
+
+/* collapse */
+.panel-default > .panel-heading {
+ 	background-color: transparent;
+    border-color: transparent;
+}
+.panel-default {
+   border: none;
+
+}
+.panel {
+	border:1px solid transparent;
+	/*border-bottom:1px solid rgba(77,77,77,1.00); */
+	
+}
+.panel-group .panel {
+	border-radius: 0px;
+}
+.new .img-responsive, img{
+	Padding: 0em;
+	padding-left: 2em;
+    
+}
+
+.panel-heading {
+	padding-left: 0px;
+}
+.panel-title {
+	margin-bottom: -10px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+.col-sm-6 {
+	padding-left: 0px;
+}
+.footer {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.footer a{
+	color:#4d4d4d;
+}
+a:hover, a:focus {
+    color: #4d4d4d;
+	text-decoration: none;
+}
+.panel-title{
+	border-bottom: 2px solid rgba(77,77,77,1.00);
+}
+.panel {
+-webkit-box-shadow: 0 1px 1px transparent;
+box-shadow: 0 1px 1px transparent;
+}
+
+.bild img {
+ padding-left: 0em;
+	height: 12em;
+	margin-bottom:2em;
+}
+
+.blau {
+	background-color: #01b7fa;
+	color: #fff;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+.blau p{
+	padding-top: 2em;
+    padding-bottom: 2em;
+	padding-left: 2em;
+}
+.kleinB{
+	font-size: 12px;
+	margin-top:12px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-toggle {
+	border-radius: 0px;}
+
